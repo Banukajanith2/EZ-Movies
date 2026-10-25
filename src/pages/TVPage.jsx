@@ -70,6 +70,22 @@ const TV_SERVERS = [
     label: "Vid Easy",
     url: (id, s, e) => `https://player.videasy.net/tv/${id}/${s}/${e}`,
   },
+  {
+    label: "VidLink",
+    url: (id, s, e) => `https://vidlink.pro/tv/${id}/${s}/${e}`,
+  },
+  {
+    label: "VidFast",
+    url: (id, s, e) => `https://vidfast.pro/tv/${id}/${s}/${e}`,
+  },
+  {
+    label: "VidCore",
+    url: (id, s, e) => `https://vidcore.org/embed/tv/${id}/${s}/${e}`,
+  },
+  {
+    label: "VidSrc PM",
+    url: (id, s, e) => `https://vidsrc.pm/embed/tv/${id}/${s}/${e}`,
+  },
 ];
 
 const TVPage = () => {

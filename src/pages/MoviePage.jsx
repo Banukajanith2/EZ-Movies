@@ -79,6 +79,26 @@ const SERVERS = [
     label: "Vid Easy",
     url: (id) => `https://player.videasy.net/movie/${id}`,
   },
+  {
+    name: "VidLink",
+    label: "VidLink",
+    url: (id) => `https://vidlink.pro/movie/${id}`,
+  },
+  {
+    name: "VidFast",
+    label: "VidFast",
+    url: (id) => `https://vidfast.pro/movie/${id}`,
+  },
+  {
+    name: "VidCore",
+    label: "VidCore",
+    url: (id) => `https://vidcore.org/embed/movie/${id}`,
+  },
+  {
+    name: "VidSrc.pm",
+    label: "VidSrc PM",
+    url: (id) => `https://vidsrc.pm/embed/movie/${id}`,
+  },
 ];
 
 /** 143 → "2h 23m" */
