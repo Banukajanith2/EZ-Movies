@@ -42,7 +42,7 @@ const SERVERS = [
   {
     name: "VidSrc",
     label: "VidSrc",
-    url: (id) => `https://vidsrcme.ru/embed/movie?tmdb=${id}`,
+    url: (id) => `https://vidsrc.mov/embed/movie/${id}`,
   },
   {
     name: "EmbosTop",

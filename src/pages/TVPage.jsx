@@ -40,7 +40,7 @@ import { useKeyboardShortcuts } from "../hooks/useKeyboardShortcuts";
 const TV_SERVERS = [
   {
     label: "VidSrc",
-    url: (id, s, e) => `https://vidsrcme.ru/embed/tv?tmdb=${id}&season=${s}&episode=${e}`,
+    url: (id, s, e) => `https://vidsrc.mov/embed/tv/${id}/${s}/${e}`,
   },
   {
     label: "EmbosTop",
